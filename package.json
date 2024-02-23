@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/araxiaonline/ets-snippets-test/issues"
   },
-  "homepage": "https://github.com/araxiaonline/ets-snippets-test#readme"
+  "homepage": "https://github.com/araxiaonline/ets-snippets-test#readme",
+  "dependencies": {
+    "wow-eluna-ts-module": "^1.9.5"
+  }
 }
