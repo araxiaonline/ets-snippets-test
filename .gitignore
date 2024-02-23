@@ -1,0 +1,6 @@
+# ETS Specific files 
+ets.env
+
+# TypeScrip stuff
+node_modules
+
