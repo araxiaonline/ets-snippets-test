@@ -1,0 +1,26 @@
+{
+  "name": "ets-snippets-test",
+  "version": "1.0.0",
+  "description": "Collections of examples showing snippets working ",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araxiaonline/ets-snippets-test.git"
+  },
+  "keywords": [
+    "ets",
+    "eluna-typescript",
+    "azerothcore",
+    "trinitycore",
+    "typescripttolua"
+  ],
+  "author": "ben-of-codecraft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/araxiaonline/ets-snippets-test/issues"
+  },
+  "homepage": "https://github.com/araxiaonline/ets-snippets-test#readme"
+}
