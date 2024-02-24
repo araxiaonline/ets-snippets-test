@@ -1,0 +1,42 @@
+{
+    "Packet Receive": {
+      "prefix": "packet_receive",
+      "body": [
+        "const $1: packet_event_on_packet_receive = (event: number, packet: Packet, player?: Player) => {",
+        "\t// Implementation",
+        "};",
+        "",
+        "// Register",
+        "const cancel = RegisterPacketEvent(PacketEvents.PACKET_EVENT_ON_PACKET_RECEIVE, (...args) => $1(...args));"
+      ],
+      "description": "Packet Event on Receive",
+      "scope": "typescript"
+    },
+    "Packet Receive Unknown": {
+      "prefix": "packet_receive_unknown",
+      "body": [
+        "const $1: packet_event_on_packet_receive_unknown = (event: number, packet: Packet) => {",
+        "\t// Not Implemented",
+        "};",
+        "",
+        "// Register",
+        "const cancel = RegisterPacketEvent(PacketEvents.PACKET_EVENT_ON_PACKET_RECEIVE_UNKNOWN, (...args) => $1(...args));"
+      ],
+      "description": "Packet Event on Receive Unknown",
+      "scope": "typescript"
+    },
+    "Packet Send": {
+      "prefix": "packet_send",
+      "body": [
+        "const $1: packet_event_on_packet_send = (event: number, packet: Packet, player?: Player) => {",
+        "\t// Implementation",
+        "};",
+        "",
+        "// Register",
+        "const cancel = RegisterPacketEvent(PacketEvents.PACKET_EVENT_ON_PACKET_SEND, (...args) => $1(...args));"
+      ],
+      "description": "Packet Event on Send",
+      "scope": "typescript"
+    }
+  }
+  
